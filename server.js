@@ -17,7 +17,7 @@
 * You should have received a copy of the GNU Affero General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-
+app.set('port', process.env.PORT || 1337);
 // Description: Basic web server to display data from Dexcom G4.  Requires a database that contains
 // the Dexcom SGV data.
 'use strict';
