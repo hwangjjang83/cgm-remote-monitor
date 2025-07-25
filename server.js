@@ -17,7 +17,8 @@
 * You should have received a copy of the GNU Affero General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-
+const express = require('express');
+const app = express();
 app.set('port', process.env.PORT || 4000);
 
 // Fix for Juggluco: redirect /api/v1/entries to /api/v1/entries.json
