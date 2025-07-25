@@ -18,7 +18,7 @@
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-app.set('port', process.env.PORT || 1337);
+app.set('port', process.env.PORT || 4000);
 
 // Fix for Juggluco: redirect /api/v1/entries to /api/v1/entries.json
 app.use('/api/v1/entries', (req, res, next) => {
