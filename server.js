@@ -19,7 +19,7 @@
 */
 const express = require('express');
 const app = express();
-app.set('port', process.env.PORT || 4000);
+app.set('port', process.env.PORT || 1337);
 
 // Fix for Juggluco: redirect /api/v1/entries to /api/v1/entries.json
 app.use('/api/v1/entries', (req, res, next) => {
